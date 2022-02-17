@@ -28,7 +28,7 @@ const Card = ({cardInfo, deleteImg, albumFilter}) => {
                     </i>
                 </div>
             </div>
-            {isModalOpen && <ImgModal url={cardInfo.url} setIsOpen={setIsModalOpen} />}
+            {isModalOpen && <ImgModal url={cardInfo.url} isOpen={isModalOpen} setIsOpen={setIsModalOpen} />}
         </>
     );
 };
