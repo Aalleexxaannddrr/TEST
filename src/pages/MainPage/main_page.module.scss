@@ -1,0 +1,10 @@
+.selection {
+  text-align: left;
+  margin: 15px;
+  display: flex;
+
+  &__select {
+    margin-left: 10px;
+    font-size: 17px;
+  }
+}

@@ -1,0 +1,23 @@
+.pagination_switch {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+
+  &__item {
+    width: 35px;
+    height: 40px;
+    padding-top: 10px;
+    border: 1px solid #b2b2b2;
+    margin: 1px;
+    cursor: pointer;
+    border-radius: 5px;
+
+    &:hover {
+      background-color: #b2b2b2;
+    }
+
+    &_active {
+      background-color: #61dafb;
+    }
+  }
+}
