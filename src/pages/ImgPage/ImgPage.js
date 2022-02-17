@@ -42,11 +42,6 @@ const ImgPage = () => {
                     keyboard_arrow_right
                 </i>
             </div>
-            <a href='/'>
-                <h4>
-                    Вернуться к списку
-                </h4>
-            </a>
         </>
     );
 };

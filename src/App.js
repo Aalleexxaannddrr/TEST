@@ -1,4 +1,3 @@
-import './App.css';
 import {BrowserRouter, Route, Routes, Navigate} from "react-router-dom";
 import {MAIN_ROUTE} from "./utils/consts";
 import {IMG_ROUTE} from "./utils/consts";
